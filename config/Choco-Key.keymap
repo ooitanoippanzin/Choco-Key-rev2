@@ -103,7 +103,7 @@
         layer_1 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                  &trans                    &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans      　  &trans  &trans  &trans    &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans    &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                  &trans                    &trans                  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans                                                    &trans  &trans  &trans                        
             >;
@@ -121,7 +121,7 @@
         layer_3 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                  &trans                    &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans      　  &trans  &trans  &trans    &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans    &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                  &trans                    &trans                  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans                                                    &trans  &trans  &trans                        
             >;
@@ -139,7 +139,7 @@
         MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                  &trans                    &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans      　  &trans  &trans  &trans    &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans    &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                  &trans                    &trans                  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans                                                    &trans  &trans  &trans 
             >;
@@ -148,7 +148,7 @@
         SCROLL {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                  &trans                    &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans      　  &trans  &trans  &trans    &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans    &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                  &trans                    &trans                  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans                                                    &trans  &trans  &trans 
             >;
@@ -157,7 +157,7 @@
         layer_7 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                  &trans                    &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans      　  &trans  &trans  &trans    &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans    &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                  &trans                    &trans                  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans                                                    &trans  &trans  &trans 
             >;
@@ -166,7 +166,7 @@
         layer_8 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                  &trans                    &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans      　  &trans  &trans  &trans    &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans    &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                  &trans                    &trans                  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans                                                    &trans  &trans  &trans                        
             >;
@@ -175,7 +175,7 @@
         layer_9 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                  &trans                    &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans      　  &trans  &trans  &trans    &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans    &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                  &trans                    &trans                  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans                                                    &trans  &trans  &trans 
             >;
@@ -184,7 +184,7 @@
         layer_10 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                  &trans                    &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans      　  &trans  &trans  &trans    &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans    &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                  &trans                    &trans                  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans                                                    &trans  &trans  &trans 
             >;
