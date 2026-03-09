@@ -41,17 +41,3 @@
         status = "disabled";
     };
 };
-
-&spi0 {
-    status = "disabled";
-
-    trackball_right: trackball@0 {
-        status = "disabled";
-        reg = <0>;
-    };
-
-    trackball_left: trackball@0 {
-        status = "disabled";
-        reg = <0>;
-    };
-};
