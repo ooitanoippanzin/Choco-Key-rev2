@@ -1,7 +1,7 @@
-if SHIELD_CHOCO-KEY_R
+if SHIELD_choco_key_r
 
 config ZMK_KEYBOARD_NAME
-    default "Choco-Key_R"
+    default "choco_key_r"
 
 config ZMK_SPLIT
     default y
@@ -11,10 +11,10 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_CHOCO-KEY_L
+if SHIELD_choco_key_l
 
 config ZMK_KEYBOARD_NAME
-    default "Choco-Key_L"
+    default "choco_key_l"
 
 config ZMK_SPLIT
     default y
