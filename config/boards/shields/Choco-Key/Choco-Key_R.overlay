@@ -1,4 +1,4 @@
-#include "choco_key.dtsi"
+#include "Choco-Key.dtsi"
 
 &default_transform {
     col-offset = <6>;
