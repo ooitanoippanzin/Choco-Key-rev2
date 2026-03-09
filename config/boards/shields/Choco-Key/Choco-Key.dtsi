@@ -50,8 +50,8 @@
         reg = <0>;
     };
 
-    trackball_left: trackball@1 {
+    trackball_left: trackball@0 {
         status = "disabled";
-        reg = <1>;
+        reg = <0>;
     };
 };
