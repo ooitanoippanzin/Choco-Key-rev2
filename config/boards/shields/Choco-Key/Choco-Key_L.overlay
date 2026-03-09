@@ -16,10 +16,10 @@
 };
 
 / {
-    trackball_listener {
+    trackball_listener_left {
         status = "okay";
         compatible = "zmk,input-listener";
-        device = <&trackball-left>;
+        device = <&trackball_left>;
 
     };
 };
@@ -51,7 +51,7 @@
     pinctrl-names = "default", "sleep";
     cs-gpios = <&gpio0 9 GPIO_ACTIVE_LOW>;
 
-    trackball: trackball@0 {
+    trackball_left: trackball@0 {
         status = "okay";
         compatible = "pixart,pmw3610";
         reg = <0>;
