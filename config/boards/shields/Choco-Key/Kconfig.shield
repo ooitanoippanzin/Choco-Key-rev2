@@ -1,5 +1,5 @@
-config SHIELD_Choco-Key_R
+config SHIELD_CHOCO-KEY_R
     def_bool $(shields_list_contains,Choco-Key_R)
 
-config SHIELD_Choco-Key_L
+config SHIELD_CHOCO-KEY_R
     def_bool $(shields_list_contains,Choco-Key_L)
