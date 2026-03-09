@@ -41,7 +41,7 @@
 
 &trackball_left {
     gesture_9 {
-        layers = <7>;
+        layers = <9>;
         bindings =
             <&kp E>,
             <&kp F>,
@@ -53,7 +53,7 @@
     };
 
     gesture_10 {
-        layers = <8>;
+        layers = <10>;
         bindings =
             <&kp I>,
             <&kp J>,
