@@ -1,4 +1,4 @@
-#include "choco_key.dtsi"
+#include "Choco-Key.dtsi"
 
 &kscan0 {
         col-gpios
@@ -50,7 +50,7 @@
     trackball@1 {
         status = "okay";
         compatible = "pixart,pmw3610";
-        reg = <0>;
+        reg = <1>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         automouse-layer = <5>;
