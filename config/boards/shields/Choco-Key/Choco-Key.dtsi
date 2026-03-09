@@ -31,12 +31,12 @@
                 ;
     };
 
-    trackball_listener: trackball_listener {
+    trackball_listener_right: trackball_listener_right {
         compatible = "zmk,input-listener";
         status = "disabled";
     };
 
-    trackball_listener: trackball_listener {
+    trackball_listener_left: trackball_listener_left {
         compatible = "zmk,input-listener";
         status = "disabled";
     };
@@ -45,7 +45,12 @@
 &spi0 {
     status = "disabled";
 
-    trackball: trackball@0 {
+    trackball_right: trackball@1 {
+        status = "disabled";
+        reg = <0>;
+    };
+
+    trackball_left: trackball@2 {
         status = "disabled";
         reg = <0>;
     };
