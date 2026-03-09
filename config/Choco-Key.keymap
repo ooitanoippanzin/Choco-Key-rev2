@@ -13,7 +13,7 @@
     quick-tap-ms = <0>;
 };
 
-&trackball-right {
+&trackball_right {
     gesture_7 {
         layers = <7>;
         bindings =
@@ -39,7 +39,7 @@
     };
 };
 
-&trackball-left {
+&trackball_left {
     gesture_9 {
         layers = <7>;
         bindings =
