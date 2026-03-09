@@ -1,8 +1,0 @@
-file_format: "1"
-id: Choco-Key
-name: Choco-Key
-type: shield
-url: https://github.com/sayu-hub/zmk-config-moNa2
-requires: [seeeduino_xiao_ble]
-features:
-  - keys
