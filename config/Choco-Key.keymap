@@ -13,7 +13,7 @@
     quick-tap-ms = <0>;
 };
 
-&trackball_split_R {
+&trackball {
     gesture_7 {
         layers = <7>;
         bindings =
