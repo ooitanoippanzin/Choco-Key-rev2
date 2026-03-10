@@ -45,17 +45,8 @@
 &spi0 {
     status = "disabled";
 
-    trackball_right: trackball@0 {
+    trackball: trackball@0 {
         status = "disabled";
         reg = <0>;
-    };
-};
-
-&spi1 {
-    status = "disabled";
-
-    trackball_left: trackball@1 {
-        status = "disabled";
-        reg = <1>;
     };
 };
