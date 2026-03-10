@@ -15,15 +15,6 @@
             ;
 };
 
-/ {
-    trackball_listener_right {
-        status = "okay";
-        compatible = "zmk,input-listener";
-        device = <&trackball_right>;
-
-    };
-};
-
 &pinctrl {
     spi0_default: spi0_default {
         group1 {
@@ -43,6 +34,15 @@
     };
 };
 
+&trackball_listener_L {
+    status = "okay";
+};
+
+&trackball_listener_R {
+    status = "okay";
+    device = <&trackball_R>;
+};
+
 &spi0 {
     status = "okay";
     compatible = "nordic,nrf-spim";
@@ -51,7 +51,7 @@
     pinctrl-names = "default", "sleep";
     cs-gpios = <&gpio0 9 GPIO_ACTIVE_LOW>;
 
-    trackball_right: trackball_right@0 {
+    trackball_R: trackball_R@0 {
         status = "okay";
         compatible = "pixart,pmw3610";
         reg = <0>;
