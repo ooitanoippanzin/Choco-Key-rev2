@@ -49,6 +49,10 @@
         status = "disabled";
         reg = <0>;
     };
+};
+
+&spi1 {
+    status = "disabled";
 
     trackball_left: trackball@1 {
         status = "disabled";
