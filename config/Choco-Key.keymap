@@ -13,57 +13,6 @@
     quick-tap-ms = <0>;
 };
 
-&trackball_right {
-    gesture_7 {
-        layers = <7>;
-        bindings =
-            <&kp LG(RIGHT_ARROW)>,
-            <&kp LG(LEFT_ARROW)>,
-            <&kp LG(UP_ARROW)>,
-            <&kp LG(DOWN_ARROW)>;
-        tick = <10>;
-        wait-ms = <5>;
-        tap-ms = <5>;
-    };
-
-    gesture_8 {
-        layers = <8>;
-        bindings =
-            <&kp A>,
-            <&kp B>,
-            <&kp C>,
-            <&kp D>;
-        tick = <10>;
-        wait-ms = <5>;
-        tap-ms = <5>;
-    };
-};
-
-&trackball_left {
-    gesture_9 {
-        layers = <9>;
-        bindings =
-            <&kp E>,
-            <&kp F>,
-            <&kp G>,
-            <&kp H>;
-        tick = <10>;
-        wait-ms = <5>;
-        tap-ms = <5>;
-    };
-
-    gesture_10 {
-        layers = <10>;
-        bindings =
-            <&kp I>,
-            <&kp J>,
-            <&kp K>,
-            <&kp L>;
-        tick = <10>;
-        wait-ms = <5>;
-        tap-ms = <5>;
-    };
-};
 
 / {
     combos { compatible = "zmk,combos"; };
