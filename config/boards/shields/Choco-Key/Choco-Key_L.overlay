@@ -11,15 +11,6 @@
             ;
 };
 
-/ {
-    trackball_listener_left {
-        status = "okay";
-        compatible = "zmk,input-listener";
-        device = <&trackball_left>;
-
-    };
-};
-
 &pinctrl {
     spi0_default: spi0_default {
         group1 {
