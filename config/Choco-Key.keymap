@@ -27,19 +27,6 @@
     };
 };
 
-//    gesture_8 {
-//        layers = <8>;
-//        bindings =
-//            <&kp M>,
-//            <&kp N>,
-//            <&kp O>,
-//            <&kp P>;
-//        tick = <10>;
-//        wait-ms = <5>;
-//        tap-ms = <5>;
-//    };
-//};
-
 &trackball_split_L {
     gesture_9 {
         layers = <9>;
