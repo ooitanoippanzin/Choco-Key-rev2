@@ -59,6 +59,8 @@
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         automouse-layer = <5>;
         scroll-layers = <6>;
+　　　　//PMW常に起動
+       //force-awake;
     };
 };
 
