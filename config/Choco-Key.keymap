@@ -39,10 +39,10 @@
 //    };
 //};
 
-&trackball_listener_L {
+&trackball_split_L {
     gesture_9 {
         layers = <9>;
-        behavior =
+        bindings =
             <&kp E>,
             <&kp F>,
             <&kp G>,
@@ -54,7 +54,7 @@
 
     gesture_10 {
         layers = <10>;
-        behavior =
+        bindings =
             <&kp I>,
             <&kp J>,
             <&kp K>,
