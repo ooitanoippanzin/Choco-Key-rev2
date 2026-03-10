@@ -39,7 +39,7 @@
 //    };
 //};
 
-&trackball_split_L {
+&trackball_R> {
     gesture_9 {
         layers = <9>;
         bindings =
