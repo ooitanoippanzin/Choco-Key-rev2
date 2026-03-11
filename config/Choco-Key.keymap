@@ -13,19 +13,19 @@
     quick-tap-ms = <0>;
 };
 
-//&trackball_R {
-//    gesture_7 {
-//        layers = <7>;
-//        bindings =
-//            <&kp A>,
-//            <&kp B>,
-//            <&kp C>,
-//            <&kp D>;
-//        tick = <10>;
-//        wait-ms = <5>;
-//        tap-ms = <5>;
-//    };
-//};
+&trackball_R {
+    gesture_7 {
+        layers = <7>;
+        bindings =
+            <&kp A>,
+            <&kp B>,
+            <&kp C>,
+            <&kp D>;
+        tick = <10>;
+        wait-ms = <5>;
+        tap-ms = <5>;
+    };
+};
 
 &trackball_split_L {
     gesture_9 {
