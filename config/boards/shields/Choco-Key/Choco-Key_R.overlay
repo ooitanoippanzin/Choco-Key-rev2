@@ -37,7 +37,8 @@
 &trackball_listener_R {
     status = "okay";
     device = <&trackball_R>;
-    input-processors = <&zip_xy_scaler 1 16>, <&zip_gesture_handler>;
+    input-processors = <&zip_xy_scaler 1 16>, 
+                       <&zip_gesture_handler>;
 };
 
 &trackball_listener_L {
