@@ -39,7 +39,6 @@
         status = "okay";
         compatible = "zmk,input-listener";
         device = <&trackball_R>;
-        //new
         input-processors = <&zip_xy_scaler 1 16>,
                            <&zip_gesture_handler>;
     };
