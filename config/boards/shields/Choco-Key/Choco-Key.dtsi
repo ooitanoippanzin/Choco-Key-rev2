@@ -10,11 +10,6 @@
 };
 
 / {
-    zip_gesture_handler: zip_gesture_handler {
-        compatible = "zmk,input-processor-gesture-handler";
-        #input-processor-cells = <0>;
-    };
-
     split_inputs {
         #address-cells = <1>;
         #size-cells = <0>;
