@@ -50,9 +50,3 @@
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
     };
 };
-
-&trackball_L {
-    status = "okay";
-    //gesture-layers = <9>;
-    //gesture-bindings = <&kp E>, <&kp F>, <&kp G>, <&kp H>;
-};
