@@ -53,10 +53,7 @@
 
 &trackball_L {
     status = "okay";
-    /* ...既存の設定... */
 
-    gesture_9 {
-        layers = <9>;
-        bindings = <&kp E>, <&kp F>, <&kp G>, <&kp H>;
-    };
+    gesture-layers = <9>;
+    gesture-bindings = <&kp E>, <&kp F>, <&kp G>, <&kp H>;
 };
