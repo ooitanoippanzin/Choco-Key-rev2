@@ -30,7 +30,6 @@
                            <&zip_xy_scaler 1 16>,
                            <&zip_scroll_scaler 1 5>,
                            <&zip_xy_to_scroll_mapper>;
-                           <&zip_temp_layer_mapper 9>, // 特定レイヤーでジェスチャーを有効化（例: レイヤー9）
                            <&zip_gesture_handler>;
     };
 
