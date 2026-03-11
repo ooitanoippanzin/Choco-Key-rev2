@@ -34,14 +34,9 @@
     };
 };
 
-/ {
-    trackball_listener_R {
-        status = "okay";
-        compatible = "zmk,input-listener";
-        device = <&trackball_R>;
-        input-processors = <&zip_xy_scaler 1 16>,
-                           <&zip_gesture_handler>;
-    };
+&trackball_listener_R {
+    status = "okay";
+    input-processors = <&zip_xy_scaler 1 16>; // ここにハンドラを追加したいが、ラベルエラーが出る場合は一旦保留
 };
 
 &trackball_listener_L {
