@@ -37,8 +37,7 @@
 &trackball_listener_R {
     status = "okay";
     device = <&trackball_R>;
-    input-processors = <&zip_xy_scaler 1 16>,
-                       <&zip_gesture_handler>; /* ここにも追加 */
+    input-processors = <&zip_xy_scaler 1 16>, <&zip_gesture_handler>;
 };
 
 &trackball_listener_L {
@@ -66,7 +65,7 @@
 
 &trackball_R {
     status = "okay";
-
-    gesture-layers = <7>;
-    gesture-bindings = <&kp A>, <&kp B>, <&kp C>, <&kp D>;
+    /* ドライバの仕様に合わせて zmk, プレフィックスを付ける */
+    zmk,gesture-layers = <7>;
+    zmk,gesture-bindings = <&kp A>, <&kp B>, <&kp C>, <&kp D>;
 };
