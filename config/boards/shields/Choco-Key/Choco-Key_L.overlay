@@ -50,3 +50,13 @@
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
     };
 };
+
+&trackball_L {
+    status = "okay";
+    /* ...既存の設定... */
+
+    gesture_9 {
+        layers = <9>;
+        bindings = <&kp E>, <&kp F>, <&kp G>, <&kp H>;
+    };
+};
