@@ -65,7 +65,6 @@
 
 &trackball_R {
     status = "okay";
-    /* ドライバの仕様に合わせて zmk, プレフィックスを付ける */
     zmk,gesture-layers = <7>;
-    zmk,gesture-bindings = <&kp A>, <&kp B>, <&kp C>, <&kp D>;
+    zmk,gesture-bindings = <&kp A>, &kp B>, <&kp C>, <&kp D>;
 };
