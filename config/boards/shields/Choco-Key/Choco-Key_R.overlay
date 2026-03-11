@@ -67,3 +67,13 @@
     };
 };
 
+&trackball_R {
+    status = "okay";
+    /* ...既存の設定... */
+    
+    /* ジェスチャーの定義をここに追加 */
+    gesture_7 {
+        layers = <7>;
+        bindings = <&kp A>, <&kp B>, <&kp C>, <&kp D>;
+    };
+};
