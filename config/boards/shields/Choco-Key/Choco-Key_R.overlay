@@ -65,6 +65,8 @@
 
 &trackball_R {
     status = "okay";
-    //gesture-layers = <7>;
-    //gesture-bindings = <&kp A &kp B &kp C &kp D>; 
+    gesture-layers = <7 8>; 
+    gesture-bindings = 
+        <&kp UP>, <&kp DOWN>, <&kp LEFT>, <&kp RIGHT>,
+        <&kp C_VOL_UP>, <&kp C_VOL_DN>, <&kp C_PREV>, <&kp C_NEXT>;
 };
