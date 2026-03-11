@@ -34,10 +34,12 @@
     };
 };
 
-&trackball_listener_R {
-    status = "okay";
-    device = <&trackball_R>;
-    input-processors = <&zip_xy_scaler 1 16>;
+/ {
+    trackball_listener_R {
+        status = "okay";
+        compatible = "zmk,input-listener";
+        device = <&trackball_R>;
+    };
 };
 
 &trackball_listener_L {
@@ -61,10 +63,4 @@
         automouse-layer = <5>;
         scroll-layers = <6>;
     };
-};
-
-&trackball_R {
-    status = "okay";
-    //gesture-layers = <7 8>; 
-    //gesture-bindings = <&kp F13>, <&kp F14>, <&kp F15>, <&kp F16>;
 };
