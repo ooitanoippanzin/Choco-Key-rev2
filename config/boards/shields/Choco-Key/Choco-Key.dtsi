@@ -24,7 +24,7 @@
         compatible = "zmk,input-listener";
         status = "disabled";
         device = <&trackball_split_L>;
-        input-processors = <&zip_xy_scaler 1 16>, <&zip_temp_layer_mapper 7>;
+        input-processors = <&zip_xy_scaler 1 16>;
     };
 
     trackball_listener_R: trackball_listener_R {
