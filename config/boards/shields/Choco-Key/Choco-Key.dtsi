@@ -19,12 +19,6 @@
             reg = <0>;
         };
     }; 
-
-    zip_layer_A: zip_layer_A {
-        compatible = "zmk,input-processor-temp-layer-mapper";
-        #input-processor-cells = <1>;
-
-    };
     trackball_listener_L: trackball_listener_L {
         compatible = "zmk,input-listener";
         status = "disabled";
