@@ -30,8 +30,6 @@
         status = "disabled";
         device = <&trackball_split_L>;
         input-processors = <&zip_xy_scaler 1 16>,
-                           <&zip_layer_A 7>,  
-                           <&zip_layer_A 8>;
     };
 
     trackball_listener_R: trackball_listener_R {
