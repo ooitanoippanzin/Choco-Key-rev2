@@ -29,8 +29,7 @@
         input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>,
                            <&zip_xy_scaler 1 16>,
                            <&zip_scroll_scaler 1 5>,
-                           <&zip_xy_to_scroll_mapper>,
-                           <&zip_gesture_handler>;
+                           <&zip_xy_to_scroll_mapper>;
     };
 
     trackball_listener_R: trackball_listener_R {
