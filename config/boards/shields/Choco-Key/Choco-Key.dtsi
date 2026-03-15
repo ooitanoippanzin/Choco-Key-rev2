@@ -10,15 +10,20 @@
 };
 
 / {
-    split_inputs {
-        #address-cells = <1>;
-        #size-cells = <0>;
+    chosen {
+        zmk,physical-layout = &default_layout;
+    };
 
-        trackball_split_L: trackball_split_L@0 {
-            compatible = "zmk,input-split";
-            reg = <0>;
-        };
+split_inputs {
+      #address-cells = <1>;
+      #size-cells = <0>;
+      
+      trackball_split_L: trackball_split_L@0 {
+        compatible = "zmk,input-split";
+        reg = <0>;
+      };
     }; 
+
     trackball_listener_L: trackball_listener_L {
         compatible = "zmk,input-listener";
         status = "disabled";
@@ -32,11 +37,6 @@
     trackball_listener_R: trackball_listener_R {
         compatible = "zmk,input-listener";
         status = "disabled";    
-    };
-
-    chosen {
-        zmk,kscan = &kscan0;
-        zmk,matrix_transform = &default_transform;
     };
 
     default_transform: keymap_transform_0 {
